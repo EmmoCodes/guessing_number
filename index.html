@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/css/style.css" />
+    <script defer src="./assets/js/index.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section>
+      <div class="my-rounds">
+        <label for="rounds">in how many rounds you think you can guess the number?</label>
+        <input type="radio" name="rounds" value="4" id="four" />
+        <label for="four">4</label>
+        <input type="radio" name="rounds" value="8" id="four" />
+        <label for="four">8</label>
+        <input type="radio" name="rounds" value="12" id="four" />
+        <label for="four">12</label>
+        <input type="radio" name="rounds" value="custom" />
+        <label for="custom">custom</label>
+      </div>
+      <input type="number" class="hide custom-rounds" />
+      <button class="start-game">Start game!</button>
+    </section>
+    <section class="hide hided-section">
+      <label for="guessing-number"></label>
+      <input type="number" class="input-number" />
+      <div>
+        <button class="guess-btn">guess</button>
+      </div>
+    </section>
+    <div>
+      <ol>
+        <li></li>
+      </ol>
+    </div>
+  </body>
+</html>
