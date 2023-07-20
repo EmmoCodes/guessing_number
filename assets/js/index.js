@@ -53,7 +53,7 @@ const generalLogic = () => {
   currentRound++
 
   if (inputValue === randomNumber) {
-    output.innerHTML += `<li>${counter}YES! You guessed it! The number is ${inputValue}</li>`
+    output.innerHTML += `<li>${counter} YES! You guessed it! The number is ${inputValue}</li>`
   } else if (inputValue > randomNumber) {
     output.innerHTML += `<li>${counter} You need to guess lower than ${inputValue} </li>`
   } else if (inputValue < randomNumber) {
